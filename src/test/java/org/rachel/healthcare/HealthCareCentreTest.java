@@ -408,7 +408,7 @@ public class HealthCareCentreTest {
         // Create a new Health Care centre
         ContactDetails corkContactDetails = new ContactDetails("cork@health.ie", "0216908754");
         Address cork = new Address("76 Blackpool Place", "Cork", "Cork", "C34U7Y6");
-        HealthcareCentre corkHealthcareCentre = new HealthcareCentre("Swords", cork, corkContactDetails);
+        HealthcareCentre corkHealthcareCentre = new HealthcareCentre("Cork", cork, corkContactDetails);
 
         // Get a doctor from the existing health care centre
         Doctor doctor = healthcareCentre.getStaffRegistry().getDoctors().values().iterator().next();
